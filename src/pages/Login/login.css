@@ -1,0 +1,42 @@
+.login__ad {
+    width: 50%;
+    padding: 30px;
+}
+
+.ad__title {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.ad__text {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 30px 0px 40px 0px;
+}
+
+.btn-register {
+    height: 40px;
+    width: 270px;
+}
+
+.login__card {
+    background-color: white;
+    height: 500px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login__card h2 {
+    margin-bottom: 50px;
+}
+
+.login-input {
+    margin-bottom: 30px;
+}
+
+.login-btn {
+    margin-top: 40px;
+}

@@ -1,0 +1,52 @@
+.container-data {
+    border-bottom: 1px solid #E0E0E0;
+    font-size: 14px;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    padding-bottom: 18px;
+}
+
+.sell-info {
+    width: 120px;
+    text-align: center;
+}
+
+.data-icons {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+.data-icons img {
+    width: 24px;
+}
+
+.data-icons img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.popup-confirm {
+    background-color: #E4F2FD;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    top: 23px;
+    left: 50px;
+    height: 50px;
+    width: 115px;
+    text-align: center;
+}
+
+.popup-confirm h3 {
+    padding-top: 8px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.popup-confirm button {
+    font-size: 10px;
+    height: 15px;
+    width: 37px;
+    margin-right: 5px;
+}

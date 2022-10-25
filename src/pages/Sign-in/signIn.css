@@ -1,0 +1,35 @@
+.card-form {
+    background-color: white;
+    height: 580px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    margin-bottom: 8px;
+}
+
+.signIn-input {
+    margin-bottom: 20px;
+}
+
+.card-form__span {
+    color: #7B61FF;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-form__span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

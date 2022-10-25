@@ -1,0 +1,93 @@
+.cardModal-container {
+    background: rgba(61, 61, 61, 0.478);
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.modal-card {
+    background-color: white;
+    border-radius: 20px;
+    height: 580px;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+    position: relative;
+    z-index: 3;
+}
+
+.profile {
+    height: 540px;
+}
+
+.modal-card h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.modal-card img {
+    cursor: pointer;
+    width: 20px;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+
+
+.modal-card__btns button {
+    height: 45px;
+    width: 190px;
+}
+
+.noColor {
+    background: #B9B9B9;
+
+}
+
+.btnBlue {
+    background-color: #3A9FF1;
+}
+
+.btnRed {
+    background-color: #FF576B;
+}
+
+.modal-card form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.modal-card input {
+    height: 40px;
+    margin: 8px 0px 18px 0px;
+}
+
+.modal-card select {
+    border: 1px solid #555555;
+    border-radius: 5px;
+    height: 40px;
+    width: 380px;
+    margin: 8px 0px 18px 0px;
+    padding: 8px;
+}
+
+.btn-div {
+    text-align: center;
+}
+
+.modal-btn {
+    height: 35px;
+    width: 200px;
+    margin-top: 15px;
+}
